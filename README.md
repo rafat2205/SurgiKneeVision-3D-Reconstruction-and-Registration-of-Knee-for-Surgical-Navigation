@@ -1,3 +1,8 @@
+SurgiKneeVision is a project that uses YOLO as Object Detection model, SAM as Segmentation model and collects the depth map of the segmented part of the knee with Microsoft Azure Kinect for Total Knee Arthroplasty. This tries to register the collected depth map of the knee with conventional 
+optimization based and modern deep learning based models. I am unable to share the dataset publicly as it was obtained for research purposes under institutional access restrictions. The data was sourced using my institutional credentials and sharing it would violate the terms of use. The trained models are uolpaded [here](https://drive.google.com/drive/folders/1RYUjBZIHGsc9f3skCo8Rk0DL69AanxTJ?usp=sharing). Simply copy the "models" folder from the "Trained Models for SurgiKneeVision" folder inside the "SurgiKneeVision" directory to use the project. 
+
+This work is inspired from [FusionVision](https://github.com/safouaneelg/FusionVision).
+
 Prompts for CLI:
 
 To run surgikneevision.py use the following prompt in CLI:
