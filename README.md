@@ -16,3 +16,11 @@ python o3d_sam_inference_az.py --yolo_weight models/YOLOv8n_custom.pt --sam_weig
 
 To run yolosam_inference_az.py use the following prompt in CLI:
 python yolosam_inference_az.py  --yolo_weight models/YOLOv8n_custom.pt --sam_weight models/sam-vit-base_custom_box.pth --show_mask --confidence_threshold 0.7 --bbox_color "red" --font_scale 0.5 --font_thickness 1 --conf 0.4 --iou 0.9
+
+The attached screenshots show the ouputs of the script when run in Azure Kinect camera and placed on a knee with a paper cutout and without a paper cutout:
+
+![Without a paper cutout](https://github.com/user-attachments/assets/564dfba9-e69b-402a-8e01-f6721958ec6e)
+![With a paper cutout](https://github.com/user-attachments/assets/a21a6a3f-8f77-43ce-833e-6409a598fe2b)
+
+
+
